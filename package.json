@@ -1,0 +1,15 @@
+{
+  "name": "hexlet-jest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Testing Jest framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alexey Anisimov",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
