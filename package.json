@@ -1,14 +1,14 @@
 {
   "name": "hexlet-jest",
   "version": "1.0.0",
-  "type": "module",
   "description": "Testing Jest framework",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "author": "Alexey Anisimov",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "jest": "^28.1.0"
   }
